@@ -15,6 +15,7 @@ func main() {
 	var n int
 	var p []int
 	var dp []int
+	var test []int
 
 	i := 0
 	for sc.Scan() {
