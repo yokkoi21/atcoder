@@ -1,0 +1,5 @@
+a = input()
+num = input().split()
+text = input()
+d = int(a) + int(num[0]) + int(num[1])
+print(str(d) + " " + text)
