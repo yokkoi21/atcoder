@@ -69,6 +69,7 @@ func main() {
 				return
 			}
 		}
+		// This code is too bad... :(
 		if time.Since(now).Milliseconds() > 1900 {
 			fmt.Println("-1")
 			return
